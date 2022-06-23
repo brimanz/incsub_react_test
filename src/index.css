@@ -11,14 +11,32 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 .left{
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   width: 65rem;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .right{
   background-color: #2F80ED;
+}
+.form-data{
+  height: 35rem;
+  width: 60%;
+  margin: 5rem 3rem 4rem 12rem;
+}
+.form-elements{
+  display: flex;
+  flex-direction: column;
+}
+.service-terms{
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+strong{
+  font-size: 0.8rem;
+  color: #2F80ED;
 }

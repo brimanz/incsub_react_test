@@ -4,6 +4,34 @@ import styled from '@emotion/styled'
 
 //using styled components
 
+const H2 = styled.h2`
+	color: #0F2027;
+	margin: 2rem 0;
+	font-size: 1.9rem;
+`;
+
+const Text1 = styled.p`
+	color: #0F2027;
+	margin: 2rem 0;
+	font-size: 0.9rem;
+`;
+
+const Text2 = styled.p`
+	color: #0F2027;
+	opacity: 0.5;
+	font-size: 0.8rem;
+`;
+
+const A = styled.a`
+	color: #2F80ED;
+	text-decoration: none;
+	font-weight: bold;
+
+	&&:hover{
+		opacity: 0.9;
+	}
+`;
+
 const Input = styled.input`
 	width: 75%;
 	padding: 0.7rem;
@@ -30,14 +58,19 @@ const Button = styled.button`
 	font-weight: bold;
 	padding: 0.7rem;
 	margin: 2rem 0;
+	cursor: pointer;
+
+	&&:hover{
+		opacity: 0.9;
+	}
 `;
 
 
 const Form = ({title}) =>{
 	return(
 		<div className="form-data">
-			<h2 className="title">{title}</h2>
-			<p className="sub-title">Already have an account?</p>
+			<H2>{title}</H2>
+			<Text1>Already have an account? <A href="/">Sign in</A></Text1>
 
 			<form className="form-elements">
 				<Input 
@@ -66,7 +99,7 @@ const Form = ({title}) =>{
 					required
 				/>
 
-				<p className="final-text">Minimum 8 characters</p>
+				<Text2>Minimum 8 characters</Text2>
 
 				<Button
 					type="submit"
@@ -74,7 +107,7 @@ const Form = ({title}) =>{
 					Next
 				</Button>
 
-				<p className="service-terms">By clicking the "Next" button, you agree to creating a free account, to <strong>Terms <br/> of Service</strong> and <strong>Privacy Policy</strong></p>
+				<p className="service-terms">By clicking the "Next" button, you agree to creating a free account, to <A href="/">Terms <br/> of Service</A> and <A href="/">Privacy Policy</A></p>
 			</form>
 		</div>
 	);

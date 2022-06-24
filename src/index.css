@@ -15,13 +15,16 @@
 }
 .left{
   background-color: #ffffff;
-  width: 65rem;
+  width: 60rem;
   display: flex;
   justify-content: left;
   align-items: center;
 }
 .right{
   background-color: #2F80ED;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 .form-data{
   height: 35rem;

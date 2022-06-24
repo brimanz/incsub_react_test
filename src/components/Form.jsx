@@ -34,7 +34,7 @@ const A = styled.a`
 
 const Input = styled.input`
 	width: 75%;
-	padding: 0.7rem;
+	padding: 0.8rem;
 	background: transparent;
 	border: 0.1rem solid #DBDBDB;
 	margin: 1rem 0;
@@ -42,8 +42,8 @@ const Input = styled.input`
 `;
 
 const Select = styled.select`
-	width: 79%;
-	padding: 0.7rem;
+	width: 80%;
+	padding: 0.8rem;
 	background: transparent;
 	border: 0.1rem solid #DBDBDB;
 	margin: 1rem 0;
@@ -51,14 +51,16 @@ const Select = styled.select`
 `;
 
 const Button = styled.button`
-	width: 79%;
+	width: 80%;
 	background: #2F80ED;
 	color: #f5f5f5;
 	font-size: 1rem;
 	font-weight: bold;
-	padding: 0.7rem;
+	padding: 0.8rem;
 	margin: 2rem 0;
 	cursor: pointer;
+	border-radius: 0.2rem;
+	border: none;
 
 	&&:hover{
 		opacity: 0.9;

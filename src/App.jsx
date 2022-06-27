@@ -9,13 +9,12 @@ const App = () =>{
   return(
     <div className="App">
       <div className="container">
+      {/*form section*/}
         <div className="left">
-          <Form
-            title={"Let's set up your account"}
-          />
-
+          <Form/>
         </div>
 
+      {/*heading section*/}
         <div className="right">
           <Content/>
         </div>

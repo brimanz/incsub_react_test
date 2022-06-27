@@ -29,7 +29,7 @@
 .form-data{
   height: 35rem;
   width: 60%;
-  margin: 5rem 3rem 4rem 12rem;
+  margin: 6rem 3rem 8rem 12rem;
 }
 .form-elements{
   display: flex;
@@ -38,4 +38,7 @@
 .service-terms{
   font-size: 0.8rem;
   margin: 0.5rem 0;
+  line-height: 1.6;
 }
+
+

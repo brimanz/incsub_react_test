@@ -71,7 +71,7 @@ const Button = styled.button`
 const Form = ({title}) =>{
 	return(
 		<div className="form-data">
-			<H2>{title}</H2>
+			<H2>Lets set up your account</H2>
 			<Text1>Already have an account? <A href="/">Sign in</A></Text1>
 
 			<form className="form-elements">
